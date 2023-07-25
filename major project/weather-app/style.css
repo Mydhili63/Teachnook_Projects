@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Nunito:wght@400;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,400;0,700;1,700&display=swap');
+
+
+body {
+  background: url("./assets/bg.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family:'Courier New', Courier, monospace;
+}
+.tittle {
+  font-size: 50px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: whitesmoke;
+  font-weight: 700;
+  text-shadow: 0 0 6px #ff0000, 0 0 5px #0000ff;
+}
+.tittleimg {
+  width: 100px;
+}
+.containerHead {
+  min-width: 348px;
+}
+
+.card {
+  box-shadow: 0 15px 25px rgba(129, 124, 124, 0.7);
+  margin: 20px;
+  background: linear-gradient(120deg,#ffd6ff,#e7c6ff,#c8b6ff,#b8c0ff,#bbd0ff);
+  border-radius: 19px;
+  backdrop-filter: blur(15px);
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 10px;
+  text-align: center;
+}
+.current {
+  min-width: 400px;
+}
+.containerHead {
+  width: 90%;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.searchdiv {
+  display: flex;
+  width: 50%;
+  margin: auto;
+  padding: 10px;
+  padding-top: 15px;
+}
+.searchbar {
+  border-radius: 10px;
+  border-color: orange;
+}
+
+.searchbtn {
+  margin-left: 10px;
+}
+.error {
+  text-align: center;
+  display: none;
+}
+.errormsg {
+  color: #ff0000;
+  font-size: 17px;
+  font-weight: 600;
+}
+.containertwo {
+  /* padding-top: 5%; */
+  display: flex;
+  justify-content: center;
+}
+.city {
+  font-size: 40px;
+  font-weight: 800;
+}
+.icon {
+  /* margin: -30%; */
+  margin-top: -40px;
+}
+.temperature1 {
+  font-size: 50px;
+  font-weight: 1000;
+  color: bisque;
+  margin-top: -60px;
+}
+.description1 {
+  font-size: 25px;
+  font-weight: 500;
+  color: bisque;
+}
+.humwin {
+  display: flex;
+}
+.hum {
+  display: flex;
+  padding-right: 10px;
+}
+.imghum {
+  width: 70px;
+}
+.val {
+  font-size: 30px;
+  font-weight: 700;
+}
+.nameval {
+  font-size: 20px;
+  font-weight: 500;
+  color: aliceblue;
+}
+.day2 {
+  display: flex;
+}
+.day2winhum {
+  display: flex;
+  justify-content: center;
+}
+.image2 {
+  width: 30px;
+}
+.icon2 {
+  width: 160px;
+}
+.temperature2 {
+  font-size: 30px;
+  font-weight: 600;
+  color: bisque;
+}
+.secondday {
+  font-size: 20px;
+  font-weight: bold;
+}
+.description2 {
+  font-size: 25px;
+  font-weight: 1000px;
+  color: #ef476f;
+}
+.hum2 {
+  padding-right: 10px;
+}
+.remaining {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}

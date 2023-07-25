@@ -1,0 +1,114 @@
+
+header{
+  position: fixed;
+  top:0px;
+  border-radius: 20px;
+  border: 3px solid rgb(40, 69, 238);
+  position: absolute;
+  left: 550px;
+  margin-top: 15px ;
+  padding: 15px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size:30px;
+  background-image: linear-gradient(120deg,#7251b5,#815ac0,#9163cb,#b185db,#d2b7e5);
+  font-style: italic;
+  color: antiquewhite;
+  width: 450px;
+}
+footer{
+  
+  bottom:0px;
+  border-radius: 20px;
+  border: 3px solid rgb(40, 69, 238);
+  position: relative;
+  left: 650px;
+  margin-bottom: 10px ;
+  padding: 15px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size:30px;
+  background-image: linear-gradient(120deg,#7251b5,#815ac0,#9163cb,#b185db,#d2b7e5);
+  font-style: italic;
+  color: antiquewhite;
+  width: 260px;
+
+}
+.border{
+  margin: 105px 40px 20px 40px;
+  padding: 40px;
+  border: 5px solid #5e60ce;
+  display: grid;
+  grid-template-areas:  'g1' 'a1' 'b1' 'c1' 'd1' 'e1' 'f1';
+  box-shadow: none;
+  background-image: linear-gradient(120deg,#00b4d8,#c77dff,#48cae4,#b185db,#72efdd);
+   
+}
+
+.a{
+  grid-area: a1;
+  background-color: #caf0f8;
+
+
+}
+.b{
+  grid-area: b1;
+  background-color: #caf0f8;
+}
+.c{
+  grid-area: c1;
+  background-color: #caf0f8;
+}
+.d{
+  grid-area: d1;
+  background-color: #caf0f8;
+}
+.e{
+  background-color: #caf0f8;
+  grid-area: e1;
+}
+.f{
+  grid-area: f1;
+  background-color: #caf0f8;
+}
+.g{
+  grid-area: g1;
+  background-color: #caf0f8;
+}
+
+body div{
+  padding: 25px;
+  margin: 25px;
+  border: 3px solid #0096c7;
+  box-shadow: 5px 5px 10px #023e8a;
+  
+  
+}
+img{
+  border: 4px solid #5e60ce; 
+  float: left;
+  margin-right: 15px;
+  width:470px;
+  height: 340px;
+}
+span{
+  font-weight: bold;
+}
+.heading{
+  font-size: larger;
+  font-style: italic;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.content{ 
+  color:#003f88;
+  font-size: 17px;
+  font-family:Arial, Helvetica, sans-serif;
+}
+.fact{
+  text-align: left;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: medium;
+}
+a{
+  font-family:'Times New Roman', Times, serif;
+  font-size: medium;
+}
